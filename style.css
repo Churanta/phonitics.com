@@ -19,3 +19,43 @@ body {
   width: 50%;
   height: 50%;
 }
+
+
+
+ h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+    p {
+      font-size: 1.5em;
+      line-height: 1.5;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+    .animated-text {
+      animation: text-blink 1s infinite linear;
+    }
+    @keyframes text-blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .animated-image {
+      animation: image-move 2s infinite linear;
+    }
+    @keyframes image-move {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: 100%;
+      }
+    }
