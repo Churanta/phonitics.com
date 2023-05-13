@@ -82,7 +82,7 @@ header{
     z-index: 1000;
 }
 .logo{
-    color: #112436;
+    color: #ffffff;
     font-weight: 700;
     font-size: 2em;
     text-decoration: none;
@@ -125,10 +125,12 @@ header{
 #text{
     position: absolute;
     top: 50%;
-    transform: translateY(-30%);
-    font-size: 5em;
-    color: #112434;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    color: #96d0ff;
 }
+
 
 .extra{
     position: relative;
