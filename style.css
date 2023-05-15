@@ -32,133 +32,155 @@ body::-webkit-scrollbar-thumb {
 
 
 
- h1 {
-      font-size: 3em;
-      text-align: center;
-    }
-    p {
-      font-size: 1.5em;
-      line-height: 1.5;
-    }
-    a {
-      text-decoration: none;
-      color: blue;
-    }
-    .animated-text {
-      animation: text-blink 1s infinite linear;
-    }
-    @keyframes text-blink {
-      0% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    .animated-image {
-      animation: image-move 2s infinite linear;
-    }
-    @keyframes image-move {
-      0% {
-        left: 0;
-      }
-      100% {
-        left: 100%;
-      }
-    }
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.animated-text {
+  animation: text-blink 1s infinite linear;
+}
+
+@keyframes text-blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-image {
+  animation: image-move 2s infinite linear;
+}
+
+@keyframes image-move {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Oswald:wght@200;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,800&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-body{
-    overflow-x: hidden;
-    background: #fff;
-    min-height: 100vh;
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+  min-height: 100vh;
 }
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
 }
-.logo{
-    color: #69bafd;
-    font-weight: 700;
-    font-size: 2em;
-    text-decoration: none;
+
+.logo {
+  color: #69bafd;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
 }
-.navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
-.navigation li{
-    list-style: none;
+
+.navigation li {
+  list-style: none;
 }
-.navigation li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #69bafd;
-    border-radius: 20px;
-    transition: 0.5s;
+
+.navigation li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #69bafd;
+  border-radius: 20px;
+  transition: 0.5s;
 }
+
 .navigation li a:hover,
-.navigation li a.active{
-    background: #112434;
-    color: #fff;
+.navigation li a.active {
+  background: #112434;
+  color: #fff;
 }
-.parallax{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.parallax img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    pointer-events: none;
+
+.parallax img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
 }
-#text{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-size: 6em;
-    color: #96d0ff;
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
+  color: #96d0ff;
 }
 
 
-.extra{
-    position: relative;
-    padding: 100px;
-    background: #112434;
+.extra {
+  position: relative;
+  padding: 100px;
+  background: #112434;
 }
-.extra h2{
-    font-size: 3em;
-    color: #fff;
-    margin-left: 35%;
-    margin-bottom: 10px;
+
+.extra h2 {
+  font-size: 3em;
+  color: #fff;
+  margin-left: 35%;
+  margin-bottom: 10px;
 }
-.extra p{
-    font-size: 1em;
-    color: #fff;
-    font-weight: 300;
+
+.extra p {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
 }
 
 
@@ -193,7 +215,7 @@ h3 {
   margin-bottom: 20px;
   font-size: 2rem;
   color: #fff;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -201,12 +223,118 @@ ul {
   padding: 0;
   margin: 0;
   color: #fff;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 li {
   margin-bottom: 10px;
   font-size: 1.2rem;
   line-height: 1.5;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Animated Card */
+
+
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin: 0 -10px;
+}
+
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 50vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+
+
+
+
+.card {
+  background: #191c29;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+}
+
+.card:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+
+.card:hover:before,
+.card:hover:after {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(var(--rotate), red, yellow, green, blue, purple);
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+  
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(var(--rotate), red, yellow, green, blue, purple, red);
+  opacity: 1;
+  transition: opacity .5s;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+
+  100% {
+    --rotate: 360deg;
+  }
 }
