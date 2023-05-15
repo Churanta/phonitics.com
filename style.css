@@ -566,7 +566,7 @@ ul{
 /* responsive */
 @media(max-width: 767px){
   .footer-col{
-    width: 25%;
-    padding: 0 15px;
+    width: 50%;
+    margin-bottom: 30px;
   }
 }
