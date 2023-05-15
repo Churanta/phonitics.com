@@ -570,3 +570,9 @@ ul{
     margin-bottom: 30px;
   }
 }
+
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
