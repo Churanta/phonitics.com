@@ -480,10 +480,23 @@ p {
   /* margin-top: 200px; */
 }
 
+
+/* Footer Css */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .cot{
   max-width: 1170px;
   /* background-color: red; */
   margin: auto;
+  box-sizing: border-box;
+  width: 100%;
+   bottom: 0;
+   margin: 10;
+   position: relative;
 }
 .rw{
   display: flex;
@@ -496,7 +509,13 @@ ul{
 .footer{
   background-color: #24262b;
   padding: 70px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin: 10;
+
 }
+
 .footer-col{
   width: 25%;
   padding: 0 15px;
