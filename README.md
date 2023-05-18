@@ -50,3 +50,11 @@ We welcome contributions from the community! If you'd like to contribute to Phon
 3. Make your changes and commit them: `git commit -m 'Add your feature'`
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a pull request on GitHub.
+
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out to us:
+
+- Website: [phonitics.com](https://www.phonitics.com)
+- Email: churantamondal321@gmail.com
