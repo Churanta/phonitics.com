@@ -1,5 +1,7 @@
 # phonitics.com
 
+Phonitics is a service-based startup company that specializes in mobile and app development, IoT-based applications, and web development projects. This repository contains the source code for the Phonitics website.
+
 ## Demonstration Video 1
 
 https://github.com/Churanta/phonitics.com/assets/83538805/74d4bbca-a9b8-41ee-bcd1-d9c50de4b962
