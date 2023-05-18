@@ -56,7 +56,7 @@ We welcome contributions from the community! If you'd like to contribute to Phon
 
 If you have any questions or suggestions, feel free to reach out to us:
 
-- Website: [phonitics.com](https://www.phonitics.com)
+- Website: [phonitics.com](https://www.codefold.co)
 - Email: churantamondal321@gmail.com
 
 We appreciate your interest in Phonitics!
