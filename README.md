@@ -8,6 +8,15 @@ Phonitics is a service-based startup company that specializes in mobile and app 
 - CSS
 - JavaScript
 
+
+## Getting Started
+
+To run the Phonitics website locally, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/your-username/phonitics.git`
+2. Open the project directory: `cd phonitics`
+3. Open `index.html` in your preferred web browser.
+
 ## Demonstration Video 1
 
 https://github.com/Churanta/phonitics.com/assets/83538805/74d4bbca-a9b8-41ee-bcd1-d9c50de4b962
