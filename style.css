@@ -564,7 +564,23 @@ ul {
 
 /* Code for points and svg file  */
 
+.container5 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-container {
+  flex: 0 0 60%;
+}
+
+.image {
+  width: 75%;
+  height: auto;
+}
+
 .services {
+  flex: 0 0 40%;
   text-align: left;
   color: white;
   padding-top: 60px;
@@ -579,8 +595,10 @@ ul {
 }
 
 .services-subtitle {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .services-list {
@@ -602,8 +620,25 @@ ul {
   left: -20px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-image: url('svg/arrow.svg');
   background-size: cover;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 767px) {
+  .container5 {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .services {
+    flex: 1 1 100%;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
 }
