@@ -674,8 +674,15 @@ ul {
   background-color: #0072c6;
   color: white;
   text-decoration: none;
-  transition: background-color 0.1s ease;
+  transition: background-color 0.3s ease;
+  /* Adjust the transition duration as needed */
 }
+
+.button:hover {
+  background-color: #87ceeb;
+  /* Use the desired hover color */
+}
+
 
 .button span {
   font-size: 1.2em;
@@ -695,9 +702,7 @@ ul {
   /* Increase the width */
 }
 
-.button:hover {
-  background-color: rgb(49, 197, 255);
-}
+
 
 .button object {
   width: 30px;
