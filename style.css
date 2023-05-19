@@ -179,6 +179,7 @@ header {
   background: #112434;
 }
 
+
 .extra h2 {
   font-size: 3em;
   color: #fff;
@@ -575,7 +576,7 @@ ul {
 }
 
 .image {
-  width: 75%;
+  width: 60%;
   height: auto;
 }
 
@@ -669,7 +670,7 @@ ul {
   justify-content: center;
   padding: 35px 90px;
   /* Increase the padding */
-  border-radius: 40px;
+  border-radius: 50px;
   background-color: #0072c6;
   color: white;
   text-decoration: none;
