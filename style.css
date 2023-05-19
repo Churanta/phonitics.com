@@ -643,7 +643,7 @@ ul {
   }
 }
 
-/* CSS for second - web development */
+/* ------------------- CSS for second - web development --------------- */
 
 .container6 {
   display: flex;
@@ -664,17 +664,44 @@ ul {
 }
 
 .button {
-  display: inline-block;
-  padding: 20px 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 90px;
+  /* Increase the padding */
   border-radius: 40px;
-  background-color: blue;
+  background-color: #0072c6;
   color: white;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
+}
+
+.button span {
+  font-size: 1.2em;
+  /* Increase the font size */
+}
+
+.button object {
+  width: 30px;
+  /* Increase the width */
+  height: 30px;
+  /* Increase the height */
+  margin-right: 10px;
+}
+
+.center-image img {
+  width: 250%;
+  /* Increase the width */
 }
 
 .button:hover {
   background-color: skyblue;
+}
+
+.button object {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .center-image {
@@ -686,3 +713,6 @@ ul {
 .center-image img {
   width: 200%;
 }
+
+
+
