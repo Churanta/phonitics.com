@@ -669,19 +669,19 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 35px 90px;
-  /* Increase the padding */
   border-radius: 50px;
   background-color: #0072c6;
   color: white;
   text-decoration: none;
-  transition: background-color 0.3s ease;
-  /* Adjust the transition duration as needed */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button:hover {
   background-color: #87ceeb;
-  /* Use the desired hover color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add a subtle box shadow on hover */
 }
+
 
 
 .button span {
