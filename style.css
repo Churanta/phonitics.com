@@ -696,7 +696,7 @@ ul {
 }
 
 .button:hover {
-  background-color: skyblue;
+  background-color: rgb(49, 197, 255);
 }
 
 .button object {
