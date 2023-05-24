@@ -645,6 +645,12 @@ ul {
   }
 }
 
+.container8 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
 /* ------------------- CSS for second - web development --------------- */
 
 .container6 {
