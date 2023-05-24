@@ -147,6 +147,7 @@ header {
   color: #fff;
 }
 
+
 .parallax {
   position: relative;
   display: flex;
@@ -278,7 +279,7 @@ header {
   width: 104%;
   height: 102%;
   border-radius: 8px;
-  background-image: linear-gradient(var(--rotate), red, yellow, green, blue, purple);
+  background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
   position: absolute;
   z-index: -1;
   top: -1%;
@@ -298,7 +299,7 @@ header {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(var(--rotate), red, yellow, green, blue, purple, red);
+  background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
   opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
