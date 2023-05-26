@@ -147,6 +147,16 @@ header {
   color: #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .navigation {
+    display:none;
+  }
+
+  .navigation li {
+    display:none;
+  }
+}
+
 
 .parallax {
   position: relative;
@@ -167,7 +177,7 @@ header {
 #text {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 7%;
   transform: translate(-50%, -50%);
   font-size: 6em;
   color: #96d0ff;
@@ -823,3 +833,32 @@ ul {
 
 /* Splash Screen */
 
+
+
+
+.responsive-heading {
+  color: #cdcdcd;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.responsive-heading::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  width: 60%;
+  height: 5px;
+  background-color: #0072c6;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-heading {
+    font-size: 30px;
+  }
+}
