@@ -650,6 +650,21 @@ ul {
   background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  .services-list {
+    padding-left: 0;
+  }
+
+  .services-list li {
+    padding-left: 20px;
+  }
+
+  .services-list li:before {
+    display: none;
+  }
+}
+
+
 /* Media Query for mobile devices */
 @media (max-width: 767px) {
   .container5 {
