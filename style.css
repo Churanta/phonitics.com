@@ -740,8 +740,8 @@ ul {
 
 .float-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 5%; /* Adjust the value as needed */
+  right: 5%; /* Adjust the value as needed */
   background-color: #25D366;
   color: white;
   border: none;
@@ -760,6 +760,7 @@ ul {
 .float-button:hover {
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
+
 
 
 
@@ -805,3 +806,8 @@ ul {
   font-style: italic;
   padding-left: 60px;
 }
+
+
+
+/* Splash Screen */
+
