@@ -786,7 +786,9 @@ ul {
   }
 
   .center-image img {
-    width: 150%;
+    /* width: 150%; */
+    width: 200%;
+    /* max-width: auto; */
   }
 }
 
@@ -863,6 +865,24 @@ ul {
   padding-left: 60px;
 }
 
+
+
+@media (max-width: 767px) {
+  .container8 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .services {
+    padding-top: 0;
+  }
+
+  .services-title,
+  .services-subtitle2 {
+    text-align: center;
+  }
+}
 
 
 /* Splash Screen */
