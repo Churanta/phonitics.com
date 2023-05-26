@@ -177,7 +177,7 @@ header {
 #text {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 7%;
   transform: translate(-50%, -50%);
   font-size: 6em;
   color: #96d0ff;
@@ -686,6 +686,11 @@ ul {
     display: none;
   }
 
+  .image-container img {
+    width: 100%;
+    max-width: 500px;
+  }
+
   
 }
 
@@ -793,6 +798,7 @@ ul {
 
   .button {
     padding: 10% 30%;
+    align-items: center;
   }
 
   .center-image {
@@ -800,9 +806,8 @@ ul {
   }
 
   .center-image img {
-    /* width: 150%; */
-    width: 200%;
-    /* max-width: auto; */
+    width: 80%;
+    max-width: 200px;
   }
 }
 
@@ -1041,6 +1046,7 @@ ul {
   line-height: 50px;
   z-index: 0;
   opacity: 0;
+  cursor: pointer;
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
