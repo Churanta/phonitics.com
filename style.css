@@ -177,7 +177,7 @@ header {
 #text {
   position: absolute;
   top: 50%;
-  left: 7%;
+  left: 20%;
   transform: translate(-50%, -50%);
   font-size: 6em;
   color: #96d0ff;
@@ -872,6 +872,7 @@ ul {
 
   .services {
     padding-top: 0;
+    text-align: center;
   }
 
   .services-title,
