@@ -702,7 +702,6 @@ ul {
   flex: 1;
   text-align: center;
   margin-bottom: 20px;
-  /* Adjust the margin for spacing */
 }
 
 .left-text2 h2,
@@ -714,13 +713,14 @@ ul {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 80px;
+  padding: 5% 10%;
   border-radius: 60px;
   background-color: #0072c6;
   color: white;
   text-decoration: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .button:hover {
   background-color: #87ceeb;
@@ -744,7 +744,6 @@ ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  /* Adjust the margin for spacing */
 }
 
 .center-image img {
@@ -753,21 +752,28 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .container6 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-  /* Styles for screens up to 768px */
+  .left-text2,
+  .right-text2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
   .button {
     padding: 25px 60px;
-    /* Adjust the padding for smaller screens */
   }
 
   .center-image {
     margin-bottom: 10px;
-    /* Adjust the margin for smaller screens */
   }
 
   .center-image img {
     width: 150%;
-    /* Adjust the width for smaller screens */
   }
 }
 
