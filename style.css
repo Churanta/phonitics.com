@@ -653,12 +653,15 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .services-list {
+    list-style-type: none;
+    margin-left: 0;
     padding-left: 0;
+    text-align: center;
     font-style: italic;
-    position: center;
-    align-items: center;
     font-size: 1.0em;
+    line-height: 1.9;
   }
+
 
   .services-list li {
     padding-left: 20px;
