@@ -618,6 +618,14 @@ ul {
   margin-bottom: 20px;
 }
 
+
+.services-title2 {
+  display: inline-block;
+  position: relative;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
 .services-subtitle {
   font-size: 1.2em;
   margin-bottom: 10px;
@@ -662,6 +670,10 @@ ul {
     line-height: 1.9;
   }
 
+  .services-title2{
+    display: none;
+  }
+
 
   .services-list li {
     padding-left: 20px;
@@ -685,6 +697,7 @@ ul {
   }
   .container8 {
     flex-direction: column;
+    text-align: center;
   }
 
   .image-container,
@@ -768,6 +781,7 @@ ul {
   .container6 {
     flex-direction: column;
     align-items: flex-start;
+    text-align: center;
   }
 
   .left-text2,
@@ -794,30 +808,6 @@ ul {
 
 
 
-/* Floating Button for watsapp */
-
-.float-button {
-  position: fixed;
-  bottom: 5%; /* Adjust the value as needed */
-  right: 5%; /* Adjust the value as needed */
-  background-color: #25D366;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 15px;
-  font-size: 24px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 157, 255, 0.2);
-}
-
-.float-button:hover {
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-}
 
 
 
@@ -872,6 +862,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+    text-align: center;
   }
 
   .services {
