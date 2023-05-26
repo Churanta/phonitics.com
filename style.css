@@ -172,7 +172,19 @@ header {
   font-size: 6em;
   color: #96d0ff;
 }
+@media only screen and (max-width: 768px) {
+  .parallax img {
+    display: none;
+  }
 
+  #text {
+    font-size: 3em;
+    position: center ;
+    transform: none;
+    margin-left: -350px;
+    margin-top: 30px;
+  }
+}
 
 .extra {
   position: relative;
