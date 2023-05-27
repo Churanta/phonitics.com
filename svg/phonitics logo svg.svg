@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2100" height="1500" viewBox="0 0 2100 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="654.625" y="311.625" width="585.315" height="833.125" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="654.625" y="311.625" width="585.315" height="833.125" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTg1LjMxNSIgaGVpZ2h0PSI4MzMuMTI1IiB2aWV3Qm94PSIwIDAgNTg1LjMxNSA4MzMuMTI1Ij4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjI5Mi42NTgiIHkxPSI4MzMuMTI1IiB4Mj0iMjkyLjY1OCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMTVlZWEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjE2IiBzdG9wLWNvbG9yPSIjMDE1ZWVhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwYzBmYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNTg1LjMxNSIgaGVpZ2h0PSI4MzMuMTI1Ii8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="P" class="cls-1" d="M840.156,787.688q37.22,2.46,104.969,2.453a464.148,464.148,0,0,0,115.355-14.032q54.945-14.038,95.22-46.39t62.25-83.016q21.99-50.648,21.99-114.14,0-111.681-69.89-166.313-69.9-54.609-212.706-54.625H654.609v29.906q28.056,7.945,39.657,14.344a52.047,52.047,0,0,1,18.625,17.094q7.008,10.688,10.062,29.906t3.063,61.328V992.156q0,45.186-3.969,67.144-3.984,21.975-16.8,33.87t-50.641,21.67v29.91H922.547v-29.91q-29.907-6.69-43.953-13.73a56.154,56.154,0,0,1-22.281-19.53q-8.25-12.525-12.2-33.88t-3.953-57.372V787.688Zm0-419.922q30.516-2.437,90.938-2.438,40.266,0,74.456,8.86,34.17,8.859,58.9,30.2,24.705,21.375,38.75,56.468,14.04,35.111,14.05,87.579,0,68.976-23.81,110.781t-68.66,59.812q-44.857,18-113.827,18h-70.8V367.766Z"/>
+</svg>
