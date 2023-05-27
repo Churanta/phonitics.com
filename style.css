@@ -979,7 +979,7 @@ ul {
 
 .floating-container {
   position: fixed;
-  width: 250px;
+  width: 100px;
   height: 100px;
   bottom: 0;
   right: 0;
