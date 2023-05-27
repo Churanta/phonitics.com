@@ -262,10 +262,10 @@
                     </span>
                 </a>
                 </span>
-                <span class="float-element">
-                    <i class="material-icons">email
-                    </i>
+                <span class="float-element" onclick="openEmail()">
+                    <i class="material-icons">email</i>
                 </span>
+
                 <span class="float-element">
                     <i class="fab fa-facebook instagram-icon"></i>
                 </span>
@@ -278,5 +278,16 @@
 
 
 </body>
+<script>
+    function openEmail() {
+        var emailAddress = "aidphonitics@gmail.com";
+        var subject = encodeURIComponent("Subject goes here");
+        var body = encodeURIComponent("Body goes here");
+
+        var mailtoLink = "mailto:" + emailAddress + "?subject=" + subject + "&body=" + body;
+
+        window.location.href = mailtoLink;
+    }
+</script>
 
 </html>
