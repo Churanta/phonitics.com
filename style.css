@@ -979,7 +979,7 @@ ul {
 
 .floating-container {
   position: fixed;
-  width: 100px;
+  width: 250px;
   height: 100px;
   bottom: 0;
   right: 0;
@@ -1080,4 +1080,19 @@ ul {
 .floating-container .float-element:nth-child(4) {
   background: #FF5722;
   box-shadow: 0 20px 20px -10px rgba(255, 87, 34, 0.5);
+}
+
+
+
+.floating-container .float-element .instagram-icon {
+  font-size: 30px;
+  /* Set the desired background color */
+  color: white;
+  /* Set the color for the icon */
+  border-radius: 50%;
+  /* Add border-radius to make the icon circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
 }
